@@ -1,0 +1,196 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DejaVuSansMono', sans-serif;
+}
+
+.body {
+    background-color: #181C26;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: -12px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 23.9px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+h4 {
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 0px;
+    display: inline;
+    border: 2px solid #FFFFFF;
+}
+
+p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px; 
+}
+
+/* header and nav */
+
+.header {
+    background-color: #181C26;
+    color: #FFFFFF;
+    padding: 15px 0px 15px;
+    border-bottom: 3px solid #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header li a {
+    font-family: "Avenir";
+    color: #FFFFFF;
+    margin: 0;
+    border: 0px;
+    text-align: center;
+    padding-right: 15px;
+}
+
+
+/* main */
+
+.main {
+    background-color: #181C26;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main col-md-5 {
+    margin-top: 100px;
+}
+
+.main p {
+    font-size: 26px;
+}
+
+.code {
+    font-size: 20px;
+    color: #313337;
+}
+
+.html {
+    color: #5AC554;
+}
+
+.css {
+    color: #E1283A;
+}
+
+.boot {
+    color: #324DD0;
+}
+
+.javascript {
+    color: #EA8727;
+}
+
+.main img {
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+/* icons */
+
+.icon {
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+/* work */
+
+.showcase {
+    background-color: #181C26;
+    padding: 5px 0 100px 0;
+}
+
+.thumbnail {
+    border: 3px solid red;
+    border-radius: 1px;
+    padding: 10px;
+    background: RGB(220, 234, 37);
+}
+
+/* resume */
+
+.resume {
+    background-color: #4067D9;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.resume p {
+    vertical-align: text-top;
+}
+
+/* contact */
+
+.contact {
+    background-color: #181C26;
+    padding-top: 70px;
+}
+
+.form-control, .btn-default {
+    border: 2px solid #E9404A;
+    border-radius: 0px;
+    background-color: #2E1F2A;
+    color: #FFFFFF;
+}
+
+.btn-default {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* footer */
+
+.footer {
+    background-color: #181C26;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer p {
+    border-top: 3px solid #4B4C54;
+    padding-top: 20px;
+    padding-top: 20px;
+}
+
+.footer img {
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.cent {
+    margin-right: 25px;
+    margin-left: 25px;
+}
